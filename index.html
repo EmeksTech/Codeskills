@@ -25,10 +25,12 @@
                 tempore aperiam in?</p>
 
         </div>
+        <!--image section-->
         <div class="image">
             <img src="/resources/images/img-donut.jpg" alt="donut image" width="50%">
 
         </div>
+        <!--list section-->
         <div class="list">
             <ul class="unordered list">
                 <li>Lorem, ipsum.</li>
@@ -44,6 +46,7 @@
                 <li>Lorem.4</li>
             </ol>
         </div>
+        <!--table section-->
         <div class="table">
             <table>
                 <tr>
@@ -63,6 +66,7 @@
                 </tr>
             </table>
         </div>
+        <!--form section-->
         <div class="form">
             <form action="">
                 <h2>Please fill in your details</h2>
@@ -73,7 +77,7 @@
                 <label for="password">Password</label><br>
                 <input type="password" name="password" id="Password"><br>
                 <textarea name="comment" id="comment" cols="30" rows="10">Enter your comment</textarea><br>
-                <div>
+                <div class="radio">
                     <h5>choose your favorite web language</h5>
                     <input type="radio" id="html" name="fav_language" value="HTML">
                     <label for="html">HTML</label><br>
@@ -82,7 +86,24 @@
                     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
                     <label for="javascript">JavaScript</label>
                 </div>
-
+                <div class="checkbox">
+                    <h5>choose the items you own</h5>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> I have a bike</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> I have a car</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> I have a boat</label>
+                </div>
+                <div class="selection">
+                    <label for="schools">Schools</label>
+                    <select name="schools" id="schools">
+                        <option value="Uniben">Uniben</option>
+                        <option value="Unizik">Unizik</option>
+                        <option value="Unilag">Unilag</option>
+                    </select>
+                </div>
+                <input type="submit" value="Submit">
             </form>
         </div>
 
