@@ -1,0 +1,52 @@
+
+body{
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+
+    
+
+}
+h1, h2, h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+p, a{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #00f;
+}
+ul li{
+text-indent: 20px;
+list-style:square;
+}
+table{
+    border-collapse: collapse;
+}
+table, td, th{
+    border: 1px solid ;
+    padding: 10px;
+
+}
+
+.form-group, textarea{
+    background-color: #EEE;
+
+}
+.button {
+    background-color: #EEE;
+}
+.button:hover{
+    background-color: #CCC;
+}
+
+div{
+    max-width: 800px;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px blur;
+    
+}
