@@ -91,21 +91,26 @@ header a:hover {
 /* Showcase styles */
 #showcase {
     min-height: 400px;
-    background: url(../images/showcase.avif) no-repeat 0 -400px;
+    background: transparent url(../images/showcase.avif) no-repeat 0 -50px ;
+    
     text-align: center;
-    color: #ffffff;
+    
 }
 
 #showcase h1 {
     margin-top: 100px;
     font-size: 55px;
     margin-bottom: 10px;
-
+    color: #ffffff;
+    
 }
 
 #showcase p {
     font-size: 20px;
+    color: #ffffff;
+    
 }
+
 
 #newsletter {
     padding: 15px;
@@ -195,10 +200,10 @@ footer {
     header nav,
     header nav li,
     #newsletter h1,
-    newsletter form,
+    #newsletter form,
     #boxes .box,
     article#main-col,
-    article#sidebar {
+    aside#sidebar {
         float: none;
         text-align: center;
         width: 100%;
